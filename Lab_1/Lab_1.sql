@@ -20,7 +20,7 @@ CREATE TABLE Readers
 	 [Surname]				NVARCHAR(50)	NOT NULL,
 	 [First Name]			NVARCHAR(50)	NOT NULL,
 	 [Patronymic]			NVARCHAR(50)	NULL,
-	 [Phone]				NVARCHAR(17)	NOT NULL,
+	 [Phone]				NVARCHAR(17)	NULL,
 	 [Address]				NVARCHAR(50)	NULL);
 
 
