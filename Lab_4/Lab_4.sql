@@ -41,7 +41,7 @@ WHERE [Reader Code] IN (
 
 
 -- 5. Surnames of readers who need to return books within the next 14 days.
-SELECT [Surname] as [Surname who should return book within the next 14 days]
+SELECT DISTINCT [Surname] as [Surname who should return book within the next 14 days]
 FROM [Readers]
 WHERE [Reader Code] IN (
 	SELECT [Reader Code]
